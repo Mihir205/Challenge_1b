@@ -16,8 +16,7 @@ RESULTS_DIR = "output"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 # Load embeddings
-model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-
+model = SentenceTransformer('./models/all-MiniLM-L6-v2') 
 
 # ---------- Embedding ----------
 def embed_text(text):
