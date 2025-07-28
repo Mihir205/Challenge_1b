@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-26T22:10:56.335190"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Garnish with sliced green onions and serve.",
+      "importance_rank": 1,
+      "page_number": 6
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Serve with your favorite toppings.",
+      "importance_rank": 2,
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Transfer meat mixture to a baking dish.",
+      "importance_rank": 3,
+      "page_number": 6
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Garnish with green onions and serve.",
+      "importance_rank": 4,
+      "page_number": 6
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Sprinkle cooked bacon, diced onion, and grated Gruyère cheese over the crust.",
+      "importance_rank": 5,
+      "page_number": 2
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "page_number": 6,
+      "refined_text": "Garnish with sliced green onions and serve."
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "page_number": 4,
+      "refined_text": "Serve with your favorite toppings."
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "page_number": 6,
+      "refined_text": "Transfer meat mixture to a baking dish."
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "page_number": 2,
+      "refined_text": "Sprinkle cooked bacon, diced onion, and grated Gruyère cheese over the crust."
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "page_number": 6,
+      "refined_text": "Sliced green onions for garnish Instructions: In a bowl, mix soy sauce, mirin, sake, and sugar."
+    }
+  ]
+}
